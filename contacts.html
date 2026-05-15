@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./Images/marvel-logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/contacts.css">
+</head>
+
+<body>
+    <nav id="nav1">
+
+        <ul id="ul1">
+            <li><a id="a1" href="./News.html" target="_blank"><i class="fa-solid fa-newspaper"></i>NEWS</a></li>
+            <li><a id="a1" href="./Characters.html" target="_blank"><i
+                        class="fa-solid fa-circle-user"></i>CHARACTERS</a></li>
+            <li><a id="a1" href="./Comics.html" target="_blank"><i class="fa-brands fa-bilibili"></i>COMICS</a></li>
+            <li><a id="a1" href="./Movies.html" target="_blank"><i class="fa-solid fa-tv"></i>MOVIES</a></li>
+            <li><a id="a1" href="./contacts.html" target="_blank"><i class="fa-solid fa-address-book"></i>CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="form-div">
+        <form id="form" onsubmit="a()">
+            <p>
+                <label><span>*</span> <i>Name</i></label>
+                <input type="text" required placeholder="Enter your name">
+            </p>
+
+            <p>
+                <label><span>*</span> <i>Email Address</i></label>
+                <input type="email" required placeholder="Enter your email">
+            </p>
+
+            <p>
+                <label><span>*</span> <i>Phone Number</i></label>
+                <input type="tel" placeholder="Enter your phone number">
+            </p>
+
+            <p>
+                <label><i>&nbsp;&nbsp;Your Message</i></label>
+                <textarea placeholder="Share your feedback"></textarea>
+            </p>
+
+            <p>
+                <button type="submit">Send Message</button>
+            </p>
+        </form>
+        <script>
+            function a() {
+                alert("Form submitted successfully!");
+                document.getElementById("form").reset();
+                return false;
+            }
+        </script>
+    </div>
+    <footer id="footer">
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <a href="https://youtu.be/ziA3znfC9Fo?si=nnCRHYaIbdIxP0wy" target="_blank"><img id="flogo"
+                        src="./Images/marvel-logo.svg" alt="Marvel Logo"></a>
+            </div>
+
+            <div class="footer-links">
+                <div>
+                    <p><a href="https://en.wikipedia.org/wiki/Marvel_Comics" id="fta" target="_blank">ABOUT MARVEL</a>
+                    </p>
+                    <p><a href="https://www.helpshift.com/glossary/faq/" id="fta" target="_blank">HELP/FAQS</a></p>
+                    <p><a href="https://youtu.be/-K9Pz1kBscM?si=VpAGiBGmQ79QS9eI" id="fta" target="_blank">CAREERS</a>
+                    </p>
+                    <p><a href="https://breakingbarrierses.org/services/paid-internship-program?gad_source=1&gad_campaignid=23292745191&gbraid=0AAAAAo6F7CDZoSDWSpybFptbfKeFo8H4_&gclid=CjwKCAjwtcHPBhADEiwAWo3sJrhfMQbBPyIt7KcXAkijDPZfiLnohdLSIFjCq6h_aWvvhBicuC1ZnxoCPoMQAvD_BwE"
+                            id="fta" target="_blank">INTENSHIPS</a></p>
+                </div>
+
+                <div>
+                    <p><a href="https://ads.google.com/intl/en_in/start/lc/?subid=in-en-ha-awa-bk-c-b00!o3~CjwKCAjwtcHPBhADEiwAWo3sJrUI0F3uwN32YIY6T_P5Bcs30wDrh7HLZ33K2wGxhtoIXnl0z0FWDBoCJpgQAvD_BwE~163867657345~kwd-339247497033~16869585350~705376001511&gclsrc=aw.ds&gad_source=1&gad_campaignid=16869585350&gclid=CjwKCAjwtcHPBhADEiwAWo3sJrUI0F3uwN32YIY6T_P5Bcs30wDrh7HLZ33K2wGxhtoIXnl0z0FWDBoCJpgQAvD_BwE"
+                            id="fta" target="_blank">ADVERTISING</a></p>
+                    <p><a href="https://www.hotstar.com/in/home" id="fta" target="_blank">DISNEY+</a></p>
+                    <p><a href="https://www.youtube.com/channel/UCxwitsUVNzwS5XBSC5UQV8Q" id="fta"
+                            target="_blank">MARVELHQ.COM</a></p>
+                    <p><a href="https://designmuseum.brussels/en/design-and-comics-living-in-a-box/?gad_source=1&gad_campaignid=22735281573&gbraid=0AAAAADMYdqYgAQXYF3KpU4rj_S-O5vtG8&gclid=CjwKCAjwtcHPBhADEiwAWo3sJq_lu3vzPuloKr6wQXnHp3ql_AipuLgoROFtbpgUpaz4uBjTbHpzqhoC5RMQAvD_BwE"
+                            id="fta" target="_blank">REDEEM DIGITAL COMICS</a></p>
+                </div>
+            </div>
+
+
+            <div class="footer-social">
+                <p>FOLLOW MARVEL</p>
+                <div class="icons">
+                    <a id="fta" href="https://www.facebook.com/Marvel/" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a id="fta" href="https://x.com/marvel" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a id="fta" href="https://www.instagram.com/#" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a id="fta" href="https://www.youtube.com/marvel" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a id="fta" href="https://www.snapchat.com/@marvel" target="_blank"><i
+                            class="fa-brands fa-snapchat"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p><a href="https://www.marvel.com/teams-and-groups" id="fta" target="_blank">Terms of Use</a></p>
+            <p><a href="http://marvelcorp-global.com/company/privacy.html" id="fta" target="_blank">Privacy Policy</a>
+            </p>
+            <p><a href="https://en.wikipedia.org/wiki/Marvel_Entertainment" id="fta" target="_blank">License
+                    Agreement</a></p>
+            <p>© 2026 MARVEL</p>
+        </div>
+    </footer>
+</body>
+
+</html>
